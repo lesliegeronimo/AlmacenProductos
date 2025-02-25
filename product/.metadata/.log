@@ -1,0 +1,101 @@
+!SESSION 2025-02-19 12:09:37.307 -----------------------------------------------
+eclipse.buildId=4.34.0.202502032007
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_MX
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-02-19 12:09:39.834
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-02-19 12:09:56.046
+!MESSAGE Logback config file: /home/lesliegeronimo/Documentos/Backend/AlmacenProductos/product/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-02-19 12:09:56.627
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-02-19 12:09:56.627
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-02-19 12:09:57.057
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-02-19 12:09:57.057
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.mylyn.tasks.ui 2 0 2025-02-19 12:10:00.758
+!MESSAGE No search provider was registered. Tasks search is not available.
+!SESSION 2025-02-19 12:10:59.627 -----------------------------------------------
+eclipse.buildId=4.34.0.202502032007
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_MX
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -data file:/home/lesliegeronimo/Documentos/Backend/AlmacenProductos/product/
+
+!ENTRY ch.qos.logback.classic 1 0 2025-02-19 12:11:05.130
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-02-19 12:11:08.733
+!MESSAGE Logback config file: /home/lesliegeronimo/Documentos/Backend/AlmacenProductos/product/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-02-19 12:11:09.385
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-02-19 12:11:09.385
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.osgi 4 0 2025-02-19 12:11:09.788
+!MESSAGE Application error
+!STACK 1
+org.eclipse.swt.SWTException: Return value not valid. g_object_get_qdata returned unexpected index value, index: -1, table size: 1024
+	at org.eclipse.swt.SWT.error(SWT.java:4922)
+	at org.eclipse.swt.widgets.Display.removeWidget(Display.java:4984)
+	at org.eclipse.swt.widgets.Shell.deregister(Shell.java:3279)
+	at org.eclipse.swt.widgets.Widget.releaseWidget(Widget.java:1435)
+	at org.eclipse.swt.widgets.Control.releaseWidget(Control.java:4775)
+	at org.eclipse.swt.widgets.Composite.releaseWidget(Composite.java:1577)
+	at org.eclipse.swt.widgets.Decorations.releaseWidget(Decorations.java:523)
+	at org.eclipse.swt.widgets.Shell.releaseWidget(Shell.java:3442)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:1410)
+	at org.eclipse.swt.widgets.Control.release(Control.java:4753)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:575)
+	at org.eclipse.swt.widgets.Shell.dispose(Shell.java:3352)
+	at org.eclipse.swt.widgets.Display.release(Display.java:4575)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:276)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:194)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1454)
+!SESSION 2025-02-19 12:11:00.060 -----------------------------------------------
+eclipse.buildId=4.34.0.202502032007
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_MX
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-02-19 12:11:06.809
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-02-19 12:11:14.321
+!MESSAGE Logback config file: /home/lesliegeronimo/Documentos/Backend/AlmacenProductos/product/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-02-19 12:11:14.952
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-02-19 12:11:14.952
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-02-19 12:11:15.382
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-02-19 12:11:15.382
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.mylyn.tasks.ui 2 0 2025-02-19 12:11:18.298
+!MESSAGE No search provider was registered. Tasks search is not available.
